@@ -69,7 +69,7 @@ class TestGame(unittest.TestCase):
         self.game.snake.body = [(100, 100), (80, 100), (80, 120), (100, 120)]
         self.game.snake.direction = (0, BLOCK_SIZE)  # Mover hacia abajo
         self.game.update()
-        self.assertTrue(self.game.running)
+        self.assertFalse(self.game.running)
 
     def test_direction_change(self):
         initial_direction = self.game.snake.direction
