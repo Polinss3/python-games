@@ -1,6 +1,3 @@
-Aquí tienes el archivo `README.md` en inglés:
-
-```markdown
 # TicTacToe 🎮
 
 This is a Python project that implements the classic Tic-Tac-Toe game. The game allows two players to play in the console, taking turns to place their markers on a 3x3 board. The first player to achieve three markers in a row, either horizontally, vertically, or diagonally, wins the game.
@@ -92,6 +89,3 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ---
 
 Enjoy playing Tic-Tac-Toe in Python! 😄
-```
-
-This `README.md` provides a comprehensive guide in English, covering project structure, features, installation, usage, tests, and contribution guidelines. Let me know if you need any further modifications!
