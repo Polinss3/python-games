@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         # Define los directorios de cada proyecto
-        project: [GuessTheNumber, Pong, Snake, TicTacToe, SpaceInvaders, 2048, MemoryGame]
+        project: [GuessTheNumber, Pong, Snake, TicTacToe, SpaceInvaders, 2048, Memory]
 
     steps:
       # Configurar Python y las dependencias
