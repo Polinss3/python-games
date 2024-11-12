@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         # Define los directorios de cada proyecto
-        project: [Pong, Snake, TicTacToe]
+        project: [GuessTheNumber, Pong, Snake, TicTacToe, SpaceInvaders, 2048, MemoryGame]
 
     steps:
       # Configurar Python y las dependencias
@@ -37,4 +37,3 @@ jobs:
         working-directory: ./${{ matrix.project }}
         run: |
           python -m unittest discover -s . -p "test_*.py"
-
